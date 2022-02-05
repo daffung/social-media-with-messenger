@@ -1,0 +1,58 @@
+.comment{
+    background-color: rgb(248, 223, 252);
+    margin:10px;
+    border-radius: 5px;
+}
+.commentWrapper{
+    display: flex;
+    flex-direction: column;
+}
+.commentTop{
+    display: flex;
+    justify-content: space-between;
+}
+.commentProfileImg{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.commentUsername{
+    font-size: 17px;
+    font-weight: 500;
+    margin: 0 10px;
+}
+.commentDate{
+    font-size: 12px;
+}
+.commentImg{
+    width: 100%;
+    object-fit: cover;
+}
+.commentBottom{
+    display: flex;
+    flex-direction: column;
+}
+.commentReply{
+    display: flex;
+    justify-content: space-evenly;
+}
+.commentDesc{
+    font-size: 17px;
+    font-weight: 400;
+    margin: 0 30px;
+}
+.commentLikeCounter{
+    font-size: 10px;
+    font-weight: 300;
+}
+.commentLike{
+    cursor: pointer;
+    font-size: 10px;
+    font-weight: 300;
+    margin: 0 50px;
+    color: rgb(125, 80, 238);
+}
+.childComment{
+    background-color: whitesmoke;
+}

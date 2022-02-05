@@ -1,0 +1,19 @@
+.friendListContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+.friendListItem{
+    height: 50px;
+    margin-bottom: 20px;
+
+    border-radius: 5px;
+}
+.friendListItemImg{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    object-fit: cover;
+    margin-right: 20px;
+}

@@ -1,0 +1,31 @@
+.conversation{
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+}
+.conversationImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+.conversation:hover{
+    background-color: rgb(233, 223, 223);
+}
+.conversation.unread{
+    background-color: rgb(192, 192, 218);
+}
+.conversation.unread:hover{
+    background-color: rgb(233, 223, 223);
+}
+.unreadAlert{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(130, 10, 241);
+    position: absolute;
+    right:15px;
+    border-radius: 50%;
+}
